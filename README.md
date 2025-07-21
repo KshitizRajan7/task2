@@ -2,7 +2,8 @@
 
 ## Today's Update
 
-Completed the UI structure implementation using all Figma assets.
+- Completed the UI structure implementation using all Figma assets.  
+- Implemented conditional rendering of cards based on the `title` value (`mentor`, `clarity`, `learn`, `job`).
 
 ---
 
