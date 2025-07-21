@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from '../Dynamic Card/Card'
 
-const Frame1 = () => {
-  return (
+const Frame1 = ({title}) => {
+    return (
     <div className='inline-flex left-[-1.5px] gap-[32px] '>
-      <Card/>
+      <Card title={title}/>
     </div>
   )
 }

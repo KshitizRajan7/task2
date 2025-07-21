@@ -6,12 +6,12 @@ const DynamicBottom = () => {
   return (
     <div className='inline-flex flex-col gap-[24px]'>
       <div className='inline-flex gap-[32px]'>
-        <Frame1 />
-        <Frame1 />
+        <Frame1 title={"clarity"}/>
+        <Frame1 title={"learn"}/>
       </div>
       <div className='inline-flex gap-[32px]'>
-        <Frame2 />
-        <Frame2 />
+        <Frame2 title={"mentor"}/>
+        <Frame2 title={"job"}/>
       </div>
     </div>
   )

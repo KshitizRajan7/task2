@@ -1,8 +1,7 @@
 import React from 'react'
 import TopCard from './TopCard'
 
-const Card = () => {
-  const title = "learn";
+const Card = ({title}) => {
   return (
     <div className='inline-flex'>
       <div>
