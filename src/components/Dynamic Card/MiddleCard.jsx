@@ -1,13 +1,23 @@
 import React from 'react'
-import MiddleTop from './MiddleTop'
 
-const MiddleCard = () => {
+const MiddleCard = ({ text1, text2, text3 }) => {
   return (
     <div className='inline-flex flex-col top-[58px] left-[206px] gap-[32px] '>
-      <MiddleTop />
-      <p className='w-[351px] h-[115px] font-normal text-lg leading-[100%] tracking-normal text-right text-[#FAFAFA] bg-red-400'>
-        Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth.
-      </p>
+      {/* MiddleTop  */}
+      <div className='inline-flex flex-col gap-[10px]'>
+        {/* top middle top  */}
+        <div className='inline-flex gap-[10px]'>
+          <p className='font-nohemi font-bold text-[32px] leading-[120%] tracking-normal text-center text-[#FAFAFA]'>
+            {text1}
+          </p>
+        </div>
+        {/* TopMiddleTop text */}
+        <p className='font-outfit w-[339px] h-[30px] font-medium text-xl leading-[100%] tracking-normal text-center text-[#FFFFFF]'>
+          {text2}
+        </p>
+      </div>
+      <p className='w-[351px] h-[115px] font-normal text-lg leading-[100%] tracking-normal text-right text-[#FAFAFA]'>
+        {text3}</p>
     </div>
   )
 }
