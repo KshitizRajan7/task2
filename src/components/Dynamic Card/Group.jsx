@@ -4,7 +4,7 @@ const Group = ({ title }) => {
     return (
         <div>
             {/* clarity */}
-            {title == "clarity" && (<div className='relative border'>
+            {title == "clarity" && (<div className='relative   '>
                 <div className='w-[257.39px] h-[338.59px] top-[22px] left-[-49px] absolute shadow-lg'>
                     <img src='clarity/body1.svg' alt='body1' className='w-[35.44px] h-[118.12px] top-[179.59px] left-[-28.79px] absolute' />
                     <img src='clarity/body1Line.svg' alt='body1Line' className='w-[36.39px] h-[119.04px] top-[179.06px] left-[-29.29px] absolute' />
@@ -74,11 +74,17 @@ const Group = ({ title }) => {
             </div>)
             }
             {/* learn */}
-            {title == "learn" && <div>learn</div>}
+            {title == "learn" && (<div className='relative'>
+                <img src='learn/learn.svg' alt="learn" className='w-[280.35px] h-[567px] top-[-60px] left-[-30px] absolute' />
+            </div>)}
             {/* mentor */}
-            {title == "mentor" && <div>mentor</div>}
+            {title == "mentor" && <div className='relative w-[500px]'>
+                <img src='mentor/mentor.svg' alt="learn" className='w-[450.04px] h-[249.97px] top-[106px] left-[-150.92px] absolute' />
+            </div>}
             {/* job */}
-            {title == "job" && <div>job</div>}
+            {title == "job" && <div className='relative w-[600px]'>
+                <img src='job/job.svg' alt="job" className='w-[480.04px] h-[310.77px] top-[53.56px] left-[-100.66px] rotate-[-6.05deg] absolute' />
+            </div>}
         </div >
     )
 }
