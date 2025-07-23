@@ -3,7 +3,9 @@
 ## Today's Update
 
 - Completed the UI structure implementation using all Figma assets.  
-- Implemented conditional rendering of cards based on the `title` value (`mentor`, `clarity`, `learn`, `job`).
+- Implemented conditional rendering of cards based on the `title` value (`mentor`, `clarity`, `learn`, `job`).  
+- Integrated and positioned group assets from Figma as per the design.  
+- Updated the sizes of components and elements to match Figma specifications.
 
 ---
 
