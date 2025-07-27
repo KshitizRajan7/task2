@@ -15,11 +15,12 @@ const FrameBottom = () => {
     <div className='inline-flex flex-col w-[1213px] border relative'>
       {/* frame 811888 */}
       <div className='inline-flex w-[592px] left-[1.5px] gap-[32px] absolute '>
+
         <div onMouseEnter={() => setIsHoveredClarity(true)} onMouseLeave={() => setIsHoveredClarity(false)} className='w-[592px] h-[341px] border'>
           {isHoveredClarity ? <HoveredClarity /> : <Card title={"clarity"} {...clarity} />}
         </div>
         <div onMouseEnter={() => setIsHoveredLearn(true)} onMouseLeave={() => setIsHoveredLearn(false)} className='w-[592px] h-[341px] border'>
-          {isHoveredLearn ? <HoveredLearn/> : <Card title={"learn"} {...learn} />}
+          {isHoveredLearn ? <HoveredLearn /> : <Card title={"learn"} {...learn} />}
         </div>
       </div>
       {/* frame 811887 */}
