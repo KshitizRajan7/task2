@@ -2,7 +2,7 @@ import React from 'react'
 
 const Group = ({ title }) => {
     return (
-        <div>
+        <>
             {/* clarity */}
             {/* {title == "clarity" && (<div className=''>
                 <div className='w-[257.39px] h-[338.59px] top-[22px] left-[-49px] absolute shadow-lg'>
@@ -77,7 +77,7 @@ const Group = ({ title }) => {
             }
             {/* learn */}
             {title == "learn" && (
-                <img src='learn/learn.svg' alt="learn" className='w-[180.35px] h-[367px] top-[14px] left-[367px] absolute' />
+                <img src='learn/learn.svg' alt="learn" className='border w-[180.35px] h-[367px] top-[14px] left-[367px] absolute' />
             )}
             {/* mentor */}
             {title == "mentor" && (
@@ -87,7 +87,7 @@ const Group = ({ title }) => {
             {title == "job" && (
                 <img src='job/job.svg' alt="job" className='w-[280.04px] h-[310.77px] top-[53.56px] left-[317.66px] rotate-[-6.05deg] absolute' />
             )}
-        </div >
+        </>
     )
 }
 
