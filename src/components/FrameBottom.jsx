@@ -16,7 +16,7 @@ const FrameBottom = () => {
       {/* frame 811888 */}
       <div className='inline-flex w-[1216px] left-[-1.5px] gap-[32px] absolute '>
 
-        <div onMouseEnter={() => setIsHoveredClarity(true)} onMouseLeave={() => setIsHoveredClarity(false)} className='w-[592px] h-[341px] border'>
+        <div onMouseEnter={() => setIsHoveredClarity(true)} onMouseLeave={() => setIsHoveredClarity(false)}>
           {isHoveredClarity ? <HoveredClarity /> : <Card title={"clarity"} {...clarity} />}
         </div>
         <div onMouseEnter={() => setIsHoveredLearn(true)} onMouseLeave={() => setIsHoveredLearn(false)}>

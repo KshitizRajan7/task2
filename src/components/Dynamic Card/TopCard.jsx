@@ -9,14 +9,14 @@ const TopCard = ({ title, text1, text2, text3 }) => {
       {title === "clarity" || title === "mentor" ? (
         <Group title={title} />
       ) : (
-        <div className={`top-[58px] left-[35px] absolute  text-left`}>
-          <MiddleCard text1={text1} text2={text2} text3={text3} />
+        <div className={`top-[58px] left-[35px] absolute`}>
+          <MiddleCard title={title} text1={text1} text2={text2} text3={text3} />
         </div>
       )
       }
 
-      {title === "clarity" || title === "mentor" ? (<div className='inline-flex flex-col w-[351px] top-[58px] left-[206px] gap-[32px] absolute'>
-        <MiddleCard text1={text1} text2={text2} text3={text3} />
+      {title === "clarity" || title === "mentor" ? (<div className='top-[58px] left-[206px] gap-[32px] absolute '>
+        <MiddleCard title={title} text1={text1} text2={text2} text3={text3} />
       </div>) :
         (
           <Group title={title} />
