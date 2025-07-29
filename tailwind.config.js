@@ -9,13 +9,22 @@ const config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+      },
+      animation: {
+        float: 'float 2s ease-in-out infinite',
+      },
       fontFamily: {
         nohemi: ['"Nohemi"', 'sans-serif'],
         outfit: ['var(--font-outfit)', 'sans-serif'],
       },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 };
 
 export default config;

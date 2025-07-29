@@ -73,19 +73,19 @@ const Group = ({ title }) => {
                 </div>
             </div>)
             } */}
-            {title == "clarity" && <img src='clarity/clarity.svg' alt="clarity" className='w-[257.39px] h-[338.59px] top-[22px] left-[-49px] absolute' />
+            {title == "clarity" && <img src='clarity/clarity.svg' alt="clarity" className='w-[257.39px] h-[338.59px] top-[22px] left-[-49px] absolute  animate-floatDown' />
             }
             {/* learn */}
             {title == "learn" && (
-                <img src='learn/learn.svg' alt="learn" className='border w-[180.35px] h-[367px] top-[14px] left-[367px] absolute' />
+                <img src='learn/learn.svg' alt="learn" className=' w-[180.35px] h-[367px] top-[14px] left-[367px] absolute animate-floatDown' />
             )}
             {/* mentor */}
             {title == "mentor" && (
-                <img src='mentor/mentor.svg' alt="learn" className='w-[307.04px] h-[249.97px] top-[106px] left-[-48.92px] absolute' />
+                <img src='mentor/mentor.svg' alt="learn" className='w-[307.04px] h-[249.97px] top-[106px] left-[-48.92px] absolute animate-floatDown' />
             )}
             {/* job */}
             {title == "job" && (
-                <img src='job/job.svg' alt="job" className='w-[280.04px] h-[310.77px] top-[53.56px] left-[317.66px] rotate-[-6.05deg] absolute' />
+                <img src='job/job.svg' alt="job" className='w-[280.04px] h-[310.77px] top-[53.56px] left-[317.66px] rotate-[-6.05deg] absolute animate-floatDown' />
             )}
         </>
     )

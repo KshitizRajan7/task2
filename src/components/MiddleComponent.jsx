@@ -4,7 +4,7 @@ import FrameBottom from './FrameBottom'
 
 const MiddleComponent = () => {
   return (
-    <div className='inline-flex flex-col w-[1213px] gap-[48px] border'>
+    <div className='inline-flex flex-col w-[1213px] gap-[48px] '>
       <FrameTop />
       <FrameBottom />
     </div>
